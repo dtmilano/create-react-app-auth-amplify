@@ -9,6 +9,9 @@ Amplify.configure(aws_exports);
 class App extends Component {
   render() {
     return (
+      <div>
+        <img src="http://localhost:9987/v2/uiDevice/screenshot">
+      </div>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
