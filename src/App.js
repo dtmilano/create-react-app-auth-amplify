@@ -10,6 +10,7 @@ class App extends Component {
   render() {
     return (
       <div>
+      <div>
         <img src="http://localhost:9987/v2/uiDevice/screenshot" alt="screenshot"/>
       </div>
       <div className="App">
@@ -27,6 +28,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+      </div>
       </div>
     );
   }
